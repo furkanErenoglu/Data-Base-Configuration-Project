@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+
+  # data base config
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/user_managment
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: 2276680
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        hbm2ddl:
+          auto: update
