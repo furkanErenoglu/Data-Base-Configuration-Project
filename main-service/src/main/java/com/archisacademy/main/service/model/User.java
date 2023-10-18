@@ -1,4 +1,4 @@
-package com.archisacademy.mainservice.model;
+package com.archisacademy.main.service.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
